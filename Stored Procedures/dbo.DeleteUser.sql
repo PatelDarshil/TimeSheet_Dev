@@ -13,5 +13,7 @@ CREATE PROCEDURE [dbo].[DeleteUser]
 AS
 BEGIN
    DELETE dbo.tbl_User WHERE UserID=@UserID
+
+   DELETE dbo.tbl_User WHERE UserID=@UserID
 END
 GO
