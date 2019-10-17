@@ -12,6 +12,6 @@ CREATE PROCEDURE [dbo].[GetUserDetails]
 AS
 BEGIN
 	SELECT * FROM tbl_User
-	SELECT TOP 10 * FROM tbl_User
+	
 END
 GO
