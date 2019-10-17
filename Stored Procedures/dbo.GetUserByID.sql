@@ -11,6 +11,6 @@ CREATE PROCEDURE [dbo].[GetUserByID]
 	@UserID INT
 AS
 BEGIN
-	SELECT * FROM dbo.tbl_User WHERE UserID=@UserID
+	SELECT * FROM dbo.tbl_User WHERE UserID=@UserID --Added by darshil patel
 END
 GO
