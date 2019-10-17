@@ -8,7 +8,7 @@ GO
 -- Description:	<Description,,>
 -- =============================================
 CREATE PROCEDURE [dbo].[DeleteUser] 
---Darshil added comment
+
     @UserID int
 	
 AS
